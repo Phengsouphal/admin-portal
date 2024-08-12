@@ -106,7 +106,7 @@
     <McCardHeader :title="'Customer ordered'">
       <div class="w-full flex justify-start items-center py-4 text-black gap-x-6">
         <div
-          class="w-[30%] flex justify-between items-center border-[0.5px] border-[#0083B050] rounded-xl p-4"
+          class="w-[30%] flex justify-between items-center border-[0.5px] border-[#ff784e50] rounded-xl p-4"
         >
           <div class="text-left">
             <p class="text-base text-black text-opacity-70">{{ $t('customer.itemOrdered') }}</p>
@@ -115,7 +115,7 @@
           <IconOrdered></IconOrdered>
         </div>
         <div
-          class="w-[30%] flex justify-between items-center border-[0.5px] border-[#0083B050] rounded-xl p-4"
+          class="w-[30%] flex justify-between items-center border-[0.5px] border-[#ff784e50] rounded-xl p-4"
         >
           <div class="text-left">
             <p class="text-base text-black text-opacity-70">{{ $t('customer.amountSpent') }}</p>

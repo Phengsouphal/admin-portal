@@ -1,13 +1,13 @@
 <template>
   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-    <rect x="0.625" y="0.625" width="18.75" height="18.75" rx="4.375" fill="#0083B0" />
+    <rect x="0.625" y="0.625" width="18.75" height="18.75" rx="4.375" fill="#ff784e" />
     <rect
       x="0.625"
       y="0.625"
       width="18.75"
       height="18.75"
       rx="4.375"
-      stroke="#0083B0"
+      stroke="#ff784e"
       stroke-width="1.25"
     />
     <path

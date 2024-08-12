@@ -168,7 +168,7 @@ const data = reactive({
         name: 'Sell Per-month',
         itemStyle: {
           borderRadius: 6,
-          color: '#0083B0'
+          color: '#ff784e'
         },
         data: [] as any[],
         type: 'bar'

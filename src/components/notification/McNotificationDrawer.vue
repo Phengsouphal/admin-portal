@@ -44,7 +44,7 @@
                   <p>
                     {{ $t('admin.unRead') }}
                   </p>
-                  <div class="w-5 h-5 rounded-full bg-[#0083B0] flex justify-center items-center">
+                  <div class="w-5 h-5 rounded-full bg-[#ff784e] flex justify-center items-center">
                     <p class="text-white text-[10px]">10+</p>
                   </div>
                 </div>

@@ -13,7 +13,7 @@
         <template #upload-button>
           <a-button type="text" class="!h-fit !p-0">
             <div
-              class="!bg-[#0083B0] !bg-opacity-10 !p-3 rounded-md flex justify-center items-center"
+              class="!bg-[#ff784e] !bg-opacity-10 !p-3 rounded-md flex justify-center items-center"
             >
               <IconImageDefault class=""></IconImageDefault>
               <p class="ml-3 font-medium">Add Images</p>

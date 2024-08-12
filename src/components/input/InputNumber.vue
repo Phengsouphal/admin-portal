@@ -59,7 +59,7 @@ const onFocus = () => {
 }
 
 .mc-focus {
-  border-color: #0083b0 !important;
+  border-color: #ff784e !important;
 }
 
 :deep(.arco-input-wrapper) {

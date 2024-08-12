@@ -96,7 +96,7 @@ onMounted(async () => {
 
 <style>
 .mc-select.arco-select-view-single.arco-select-view-focus {
-  border-color: #0083b0 !important;
+  border-color: #ff784e !important;
 }
 
 .arco-form-item-error .mc-select {

@@ -220,7 +220,7 @@ onMounted(async () => {
 
 <style scoped>
 .mc-progress :deep(.arco-progress-line-bar) {
-  background: linear-gradient(45deg, #48b35e, #0083b0);
+  background: linear-gradient(45deg, #48b35e, #ff784e);
 }
 
 .mc-table :deep(tr:last-child td) {

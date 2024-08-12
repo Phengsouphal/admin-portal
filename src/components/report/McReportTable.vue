@@ -78,7 +78,7 @@ const onClick = () => {
   color: #48b35e;
 }
 .rank-4 {
-  color: #0083b0;
+  color: #ff784e;
 }
 .rank-5 {
   color: #c25452;
