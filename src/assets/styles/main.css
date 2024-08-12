@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'InterFont';
+  src:
+    url('../fonts/Inter-Regular.woff2') format('woff2'),
+    url('../fonts/Inter-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  height: 100%;
+  background: transparent;
+  font-family: 'InterFont', sans-serif !important;
+  overscroll-behavior: none;
+  scroll-behavior: smooth;
+}
+
+.arco-trigger-popup-wrapper .arco-trigger-arrow {
+  @apply bg-main;
+}
+.arco-trigger-popup-wrapper .arco-trigger-content .arco-trigger-menu {
+  @apply bg-main p-1.5 rounded-lg;
+}
+
+.arco-trigger-popup-wrapper .arco-trigger-content {
+  @apply bg-main text-base font-semibold text-white rounded-lg;
+}
+
+.arco-trigger-popup-wrapper
+  .arco-trigger-content
+  .arco-trigger-menu
+  .arco-trigger-menu-inner
+  .arco-trigger-menu-selected {
+  @apply bg-[#055874] bg-opacity-40 rounded-lg;
+}
+
+.arco-trigger-popup-wrapper
+  .arco-trigger-content
+  .arco-trigger-menu
+  .arco-trigger-menu-inner
+  .arco-trigger-menu-item {
+  @apply text-center text-base font-semibold text-white h-11 flex gap-y-2 justify-center items-center;
+}
+
+.arco-trigger-popup-wrapper .arco-trigger-content .arco-trigger-menu .arco-trigger-menu-inner {
+  @apply flex flex-col justify-center items-center w-full gap-y-2;
+}
+
+.arco-trigger-popup-wrapper
+  .arco-trigger-content
+  .arco-trigger-menu
+  .arco-trigger-menu-inner
+  .arco-trigger-menu-item:hover {
+  @apply bg-[#055874] bg-opacity-20 rounded-lg;
+}
+
+.arco-message .arco-message-content {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.arco-message .arco-message-icon {
+  font-size: 30px;
+}
+
+.mc-notification-drawer .arco-drawer {
+  background-color: transparent;
+  padding: 0px;
+}
+
+.mc-notification-drawer .arco-drawer .arco-drawer-body {
+  padding: 0px;
+}
+
+.mc-notification-tab .arco-tabs-nav-type-line .arco-tabs-tab {
+  padding: 8px 20px;
+  margin: 0px;
+}
